@@ -50,9 +50,10 @@ public class LoginPageStep extends BaseClassPet{
 	@Then("user should be able to click the login button succesfully")
 	public void user_should_be_able_to_click_the_login_button_succesfully() {
 		try {
-			
+			System.out.println("check success for git hub");
+			System.out.println("proceed further ");
 			loginPage.getLoginclick().click();
-			
+			System.out.println("user arises the merger conflict");
 		} catch (Exception e) {
 			System.out.println("user not able to click login "+e.getMessage());
 		}
